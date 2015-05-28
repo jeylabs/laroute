@@ -49,4 +49,10 @@ return [
      */
     'template' => 'vendor/lord/laroute/src/templates/laroute.js',
 
+    /*
+     * If application is inside sub folder then use the prefix
+     */
+
+    'prefix' => ''
+
 ];
