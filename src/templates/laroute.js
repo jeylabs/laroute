@@ -7,7 +7,7 @@
             absolute: $ABSOLUTE$,
             rootUrl: '$ROOTURL$',
             routes : $ROUTES$,
-            prefix : $PREFIX$,
+            prefix : '$PREFIX$',
 
             route : function (name, parameters, route) {
                 route = route || this.getByName(name);
