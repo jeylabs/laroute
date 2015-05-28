@@ -1,16 +1,16 @@
 <?php
 
-namespace Lord\Laroute\Generators;
+namespace Jeylabs\Laroute\Generators;
 
 use Illuminate\Filesystem\Filesystem;
-use Lord\Laroute\Compilers\CompilerInterface as Compiler;
+use Jeylabs\Laroute\Compilers\CompilerInterface as Compiler;
 
 interface GeneratorInterface
 {
     /**
      * Create a new template generator instance.
      *
-     * @param $compiler   \Lord\Laroute\Compilers\CompilerInterface
+     * @param $compiler   \Jeylabs\Laroute\Compilers\CompilerInterface
      * @param $filesystem \Illuminate\Filesystem\Filesystem
      *
      */

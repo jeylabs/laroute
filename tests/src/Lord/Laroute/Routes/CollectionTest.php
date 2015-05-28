@@ -1,6 +1,6 @@
 <?php
 
-namespace Lord\Laroute\Routes;
+namespace Jeylabs\Laroute\Routes;
 
 use Mockery;
 

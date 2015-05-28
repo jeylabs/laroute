@@ -1,6 +1,6 @@
 <?php
 
-namespace Lord\Laroute\Compilers;
+namespace Jeylabs\Laroute\Compilers;
 
 interface CompilerInterface
 {
